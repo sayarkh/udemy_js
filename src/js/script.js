@@ -50,4 +50,27 @@ if (personalMovieDB.count < 10) {
 
 console.log(personalMovieDB);
 
+//function
+
+function showTheText(text) {
+    console.log(text);
+}
+showTheText("Hello, World!");
+
+let calc = function (a, b) {
+    return a+b;   
+};
+console.log(calc(5,7));
+
+
+function displayNum() {
+    let num = 20;
+    //
+    return num;
+}
+const news = displayNum();
+console.log(news);
+
+let mult = (a, b) => a * b;
+console.log(mult(3,5));
 
